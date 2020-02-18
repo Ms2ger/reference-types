@@ -64,7 +64,7 @@ let refer_func (c : context) x = refer "function" c.refs.Free.funcs x
  * Note: The declarative typing rules are non-deterministic, that is, they
  * have the liberty to locally "guess" the right types implied by the context.
  * In the algorithmic formulation required here, stack types are hence modelled
- * as lists of _options_ of types here, where `None` representss a locally
+ * as lists of _options_ of types, where `None` represents a locally
  * unknown type. Furthermore, an ellipses flag represents arbitrary sequences
  * of unknown types, in order to handle stack polymorphism algorithmically.
  *)
